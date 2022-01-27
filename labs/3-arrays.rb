@@ -14,3 +14,13 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+my_food = ["milk", "eggs", "bacon", "beer"]
+your_food = ["beer", "cookies", "apples"]
+
+# shopping_list = my_food.union(your_food)
+shopping_list = my_food + your_food
+sorted_list = shopping_list.sort!
+final_list = sorted_list.uniq!
+
+puts final_list
