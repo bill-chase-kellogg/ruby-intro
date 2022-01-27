@@ -8,3 +8,10 @@
 # screen.
 ranks = [2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King", "Ace"]
 suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
+
+for cards in ranks
+    puts "#{cards} of #{suits[0]}"
+    puts "#{cards} of #{suits[1]}"
+    puts "#{cards} of #{suits[2]}"
+    puts "#{cards} of #{suits[3]}"
+end
