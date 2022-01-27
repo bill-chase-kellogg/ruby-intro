@@ -4,6 +4,7 @@
 
 # Arrays are lists of things
 
+
 # Accessing the array
 
 # Add to the array
